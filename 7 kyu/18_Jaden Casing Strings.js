@@ -2,11 +2,11 @@
 String.prototype.toJadenCase = function () {
   const str = this.split(" ");
 
-  const strToArr = str.map((item) => {
+  const arr = str.map((item) => {
     // Take the first letter of the word and convert it into capitalized and get the rest of letters starting from the 1st index.
     return item.slice(0, 1).toUpperCase() + item.slice(1);
   });
-  return strToArr.join(" ");
+  return arr.join(" ");
 };
 
 const str = "How can mirrors be real if our eyes aren't real";
