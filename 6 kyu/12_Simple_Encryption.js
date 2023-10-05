@@ -1,0 +1,13 @@
+// 1. Implement a pseudo-encryption algorithm which given a string S.
+
+// 2. Integer N concatenates all the odd-indexed characters of S with all the even-indexed characters of S
+
+// 3. This process should be repeated N times.
+
+// encrypt("012345", 1)  =>  "135024"
+// encrypt("012345", 2)  =>  "135024"  ->  "304152"
+// encrypt("012345", 3)  =>  "135024"  ->  "304152"  ->  "012345"
+
+// encrypt("01234", 1)  =>  "13024"
+// encrypt("01234", 2)  =>  "13024"  ->  "32104"
+// encrypt("01234", 3)  =>  "13024"  ->  "32104"  ->  "20314"
