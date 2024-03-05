@@ -18,20 +18,20 @@ makeNegative(-5); // return -5
 makeNegative(0); // return 0
 makeNegative(0.12); // return -0.12
 
-const timeoutID = setTimeout(
-  callBackFunc,
-  delayTime,
-  callbackParam1,
-  callbackParam2
-);
+// const timeoutID = setTimeout(
+//   callBackFunc,
+//   delayTime,
+//   callbackParam1,
+//   callbackParam2
+// );
 
-clearTimeout(timeoutID);
+// clearTimeout(timeoutID);
 
-const intervalID = setInterval(
-  callBackFunc,
-  intervalTime,
-  callbackParam1,
-  callbackParam2
-);
+// const intervalID = setInterval(
+//   callBackFunc,
+//   intervalTime,
+//   callbackParam1,
+//   callbackParam2
+// );
 
-clearInterval(intervalID);
+// clearInterval(intervalID);

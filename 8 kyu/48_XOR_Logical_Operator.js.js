@@ -14,12 +14,10 @@
 // If both are different then it will return true.
 
 function xor(a, b) {
-  console.log(a ^ b ? true : false);
   return a ^ b;
 }
 
-xor(false, false); //, false, "false xor false");
-xor(true, false); //, true, "true xor false");
-xor(false, true); //, true, "false xor true");
-xor(true, true); //, false, "true xor true");
-xor(true, true); //, true, "true xor true: 'xor' is NOT identical to 'or'");
+xor(false, false); // false
+xor(true, false); // true
+xor(false, true); // true
+xor(true, true); // false
